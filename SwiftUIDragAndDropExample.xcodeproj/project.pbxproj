@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6ABF5732B3827D400563FBB /* DragCrashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABF5722B3827D400563FBB /* DragCrashApp.swift */; };
+		C6ABF5732B3827D400563FBB /* SwiftUIDragAndDropExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABF5722B3827D400563FBB /* SwiftUIDragAndDropExampleApp.swift */; };
 		C6ABF5752B3827D500563FBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABF5742B3827D500563FBB /* ContentView.swift */; };
 		C6ABF5772B3827D600563FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6ABF5762B3827D600563FBB /* Assets.xcassets */; };
 		C6ABF57A2B3827D600563FBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6ABF5792B3827D600563FBB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C6ABF56F2B3827D400563FBB /* DragCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6ABF5722B3827D400563FBB /* DragCrashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragCrashApp.swift; sourceTree = "<group>"; };
+		C6ABF56F2B3827D400563FBB /* SwiftUIDragAndDropExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDragAndDropExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6ABF5722B3827D400563FBB /* SwiftUIDragAndDropExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDragAndDropExampleApp.swift; sourceTree = "<group>"; };
 		C6ABF5742B3827D500563FBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6ABF5762B3827D600563FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6ABF5792B3827D600563FBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C6ABF57B2B3827D600563FBB /* DragCrash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DragCrash.entitlements; sourceTree = "<group>"; };
+		C6ABF57B2B3827D600563FBB /* SwiftUIDragAndDropExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIDragAndDropExample.entitlements; sourceTree = "<group>"; };
+		C6EBAF512B38E8F500DC1508 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +37,8 @@
 		C6ABF5662B3827D400563FBB = {
 			isa = PBXGroup;
 			children = (
-				C6ABF5712B3827D400563FBB /* DragCrash */,
+				C6EBAF512B38E8F500DC1508 /* README.md */,
+				C6ABF5712B3827D400563FBB /* SwiftUIDragAndDropExample */,
 				C6ABF5702B3827D400563FBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +46,21 @@
 		C6ABF5702B3827D400563FBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6ABF56F2B3827D400563FBB /* DragCrash.app */,
+				C6ABF56F2B3827D400563FBB /* SwiftUIDragAndDropExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6ABF5712B3827D400563FBB /* DragCrash */ = {
+		C6ABF5712B3827D400563FBB /* SwiftUIDragAndDropExample */ = {
 			isa = PBXGroup;
 			children = (
-				C6ABF5722B3827D400563FBB /* DragCrashApp.swift */,
+				C6ABF5722B3827D400563FBB /* SwiftUIDragAndDropExampleApp.swift */,
 				C6ABF5742B3827D500563FBB /* ContentView.swift */,
 				C6ABF5762B3827D600563FBB /* Assets.xcassets */,
-				C6ABF57B2B3827D600563FBB /* DragCrash.entitlements */,
+				C6ABF57B2B3827D600563FBB /* SwiftUIDragAndDropExample.entitlements */,
 				C6ABF5782B3827D600563FBB /* Preview Content */,
 			);
-			path = DragCrash;
+			path = SwiftUIDragAndDropExample;
 			sourceTree = "<group>";
 		};
 		C6ABF5782B3827D600563FBB /* Preview Content */ = {
@@ -72,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6ABF56E2B3827D400563FBB /* DragCrash */ = {
+		C6ABF56E2B3827D400563FBB /* SwiftUIDragAndDropExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6ABF57E2B3827D600563FBB /* Build configuration list for PBXNativeTarget "DragCrash" */;
+			buildConfigurationList = C6ABF57E2B3827D600563FBB /* Build configuration list for PBXNativeTarget "SwiftUIDragAndDropExample" */;
 			buildPhases = (
 				C6ABF56B2B3827D400563FBB /* Sources */,
 				C6ABF56C2B3827D400563FBB /* Frameworks */,
@@ -84,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = DragCrash;
-			productName = DragCrash;
-			productReference = C6ABF56F2B3827D400563FBB /* DragCrash.app */;
+			name = SwiftUIDragAndDropExample;
+			productName = SwiftUIDragAndDropExample;
+			productReference = C6ABF56F2B3827D400563FBB /* SwiftUIDragAndDropExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C6ABF56A2B3827D400563FBB /* Build configuration list for PBXProject "DragCrash" */;
+			buildConfigurationList = C6ABF56A2B3827D400563FBB /* Build configuration list for PBXProject "SwiftUIDragAndDropExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6ABF56E2B3827D400563FBB /* DragCrash */,
+				C6ABF56E2B3827D400563FBB /* SwiftUIDragAndDropExample */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6ABF5752B3827D500563FBB /* ContentView.swift in Sources */,
-				C6ABF5732B3827D400563FBB /* DragCrashApp.swift in Sources */,
+				C6ABF5732B3827D400563FBB /* SwiftUIDragAndDropExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +272,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DragCrash/DragCrash.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIDragAndDropExample/SwiftUIDragAndDropExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DragCrash/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDragAndDropExample/Preview Content\"";
 				DEVELOPMENT_TEAM = H6F2W964VK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -285,7 +287,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.latencyzero.DragCrash;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latencyzero.SwiftUIDragAndDropExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,11 +299,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DragCrash/DragCrash.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIDragAndDropExample/SwiftUIDragAndDropExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DragCrash/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDragAndDropExample/Preview Content\"";
 				DEVELOPMENT_TEAM = H6F2W964VK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -312,7 +314,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.latencyzero.DragCrash;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latencyzero.SwiftUIDragAndDropExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6ABF56A2B3827D400563FBB /* Build configuration list for PBXProject "DragCrash" */ = {
+		C6ABF56A2B3827D400563FBB /* Build configuration list for PBXProject "SwiftUIDragAndDropExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6ABF57C2B3827D600563FBB /* Debug */,
@@ -331,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6ABF57E2B3827D600563FBB /* Build configuration list for PBXNativeTarget "DragCrash" */ = {
+		C6ABF57E2B3827D600563FBB /* Build configuration list for PBXNativeTarget "SwiftUIDragAndDropExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6ABF57F2B3827D600563FBB /* Debug */,
