@@ -19,21 +19,33 @@ struct ContentView: View {
         .frame(width: 200, height: 200)
         .background(.red)
         .padding()
-#if true
-		.onDrop(of: [.movie, .image], delegate: MyDropDelegate())
-#elseif false
-		.onDrop(of: [.movie, .image], isTargeted: nil)
+#if false
+		.onDrop(of: [.movie, .image], delegate: MyDropDelegate())			//	Crashes
+#elseif true
+		.onDrop(of: [.movie, .image], isTargeted: nil)						//	Crashes
 		{ inProviders, inPoint in
 			print("got something")
-//			for provider in inProviders
-//			{
-//				print("types: \(provider.registeredTypeIdentifiers)")
-//			}
+			for provider in inProviders
+			{
+				print("types: \(provider.registeredTypeIdentifiers)")
+			}
 			return true
 		}
-#elseif false		//	This one doesn't work for drops from Photos.app (probably needs to be Data or Image)
+#elseif false		//	This one doesn't work for drops from Photos.app
 		.dropDestination(for: URL.self) { items, location in
 			print("got items: \(items)")
+			return true
+		}
+#elseif false
+		.dropDestination(for: Image.self)									//	Crashes
+		{ items, location in
+			print("Got items: \(items)")
+			return true
+		}
+#elseif false
+		.dropDestination(for: Data.self)									//	Crashes
+		{ items, location in
+			print("Got items: \(items)")
 			return true
 		}
 #endif

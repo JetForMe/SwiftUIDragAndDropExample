@@ -38,3 +38,6 @@ To reproduce:
 	19  libsystem_pthread.dylib             0x00000001047d7ab4 start_wqthread + 8
 )
 ```
+
+The code in question starts at `ContentView.swift:22`. You can play with the various `#if` to
+try different variations of how to accept drops.
