@@ -1,5 +1,11 @@
 #  SwiftUI Drag and Drop Example
 
+I’m trying to write an app that accepts image, movie, and audio data from other
+apps. I want it to accept files from the Finder (including folders), drops from
+Photos, etc. The only examples I find online accept any URL, and don’t work when
+the source is Photos. So I’ve been experimenting, only to find virtually everything
+crashes.
+
 This very basic example shows how to implement non-trivial Drag and Drop. It
 currently only shows that attempting to accept multiple drops from Photos crashes.
 
